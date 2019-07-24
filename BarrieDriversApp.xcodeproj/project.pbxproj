@@ -14,6 +14,7 @@
 		28B04BD122E8F7E800B746A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B04BCF22E8F7E800B746A7 /* LaunchScreen.storyboard */; };
 		28B04BDC22E8F7E800B746A7 /* BarrieDriversAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B04BDB22E8F7E800B746A7 /* BarrieDriversAppTests.swift */; };
 		28B04BE722E8F7E800B746A7 /* BarrieDriversAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B04BE622E8F7E800B746A7 /* BarrieDriversAppUITests.swift */; };
+		28B04BF522E8FCD100B746A7 /* DriverDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B04BF422E8FCD100B746A7 /* DriverDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		28B04BE222E8F7E800B746A7 /* BarrieDriversAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrieDriversAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B04BE622E8F7E800B746A7 /* BarrieDriversAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarrieDriversAppUITests.swift; sourceTree = "<group>"; };
 		28B04BE822E8F7E800B746A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B04BF422E8FCD100B746A7 /* DriverDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				28B04BCD22E8F7E800B746A7 /* Assets.xcassets */,
 				28B04BCF22E8F7E800B746A7 /* LaunchScreen.storyboard */,
 				28B04BD222E8F7E800B746A7 /* Info.plist */,
+				28B04BF422E8FCD100B746A7 /* DriverDetails.swift */,
 			);
 			path = BarrieDriversApp;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B04BF522E8FCD100B746A7 /* DriverDetails.swift in Sources */,
 				28B04BC922E8F7E700B746A7 /* ViewController.swift in Sources */,
 				28B04BC722E8F7E700B746A7 /* AppDelegate.swift in Sources */,
 			);
